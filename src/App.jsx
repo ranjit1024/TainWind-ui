@@ -4,25 +4,25 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import {Sidebar} from "./components/Sidebar";
 import { Header } from "./components/Header";
+import { Overview } from "./components/Overview";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
-   <div className="h-screen w-screen flex">
+   <div className="h-screen w-screen flex bg-slate-50">
     <Sidebar/>
     <div className="w-screen">
     <Header/>
-    <Anoerh/>
+    <h1 className="font-bold
+    
+    p-4 my-4 text-2xl tracking-wide ">Overview</h1>
+    <Overview onlineOrder={231} amount={"19,123,454"}/>
     </div>
     </div>
   );
 }
-function Anoerh(){
-  return<div className="flex">
-    <h1>fsd</h1>
-  </div>
-}
+
 
 export default App;
 
