@@ -9,12 +9,17 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-   <div className="flex">
+   <div className="h-screen flex  w-screen">
     <Sidebar/>
-    <Header></Header>
-    
+    <Header/>
+    <Anoerh/>
     </div>
   );
+}
+function Anoerh(){
+  return<div className="flex">
+    <h1>fsd</h1>
+  </div>
 }
 
 export default App;

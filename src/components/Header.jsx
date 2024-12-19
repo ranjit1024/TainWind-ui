@@ -1,6 +1,6 @@
 export function Header() {
   return (
-    <div className="bg-white flex flex-row h-fit p-5 justify-between w-screen">
+    <div className="bg-white flex w-screen h-fit p-5 justify-between ">
       <div className="flex items-center">
         <p className="font-base mr-7">Payments</p>
         <p className="text-gray-500 text-sm">How it works</p>
@@ -40,3 +40,5 @@ export function Header() {
     </div>
   );
 }
+
+
