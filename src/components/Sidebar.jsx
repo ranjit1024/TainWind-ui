@@ -8,7 +8,7 @@ export function Sidebar() {
 
         <div className="name text-white ml-6">
           <p className="font-medium mb-1">Nishyan</p>
-          <p className="text-sm align-bottom text-gray-50 opacity-70 underline-offset-1 underline decoration-white decoration-1 font-medium">
+          <p className="text-sm align-bottom text-gray-50 opacity-70 underline-offset-1 underline decoration-white decoration-1 font-medium w-20">
             visit Store
           </p>
         </div>
