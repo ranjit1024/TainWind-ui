@@ -1,6 +1,6 @@
 export function Sidebar() {
   return (
-    <div className="bg-slate-800 p-5 w-fite">
+    <div className="bg-slate-800 p-5 h-screen w-fit">
       <div className="logo flex items-center justify-center">
         <div className="size-10 rounded bg-white flex overflow-hidden justify-center items-center">
           <p className="text-[10px] overflow-hidden">Nishyan</p>

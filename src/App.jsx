@@ -9,10 +9,12 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-   <div className="h-screen flex  w-screen">
+   <div className="h-screen w-screen flex">
     <Sidebar/>
+    <div className="w-screen">
     <Header/>
     <Anoerh/>
+    </div>
     </div>
   );
 }
